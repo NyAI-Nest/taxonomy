@@ -78,4 +78,4 @@ There is no test suite. Check changes with `pnpm lint` and a clean `pnpm build`,
 
 ## Product docs
 
-The product's user-facing documentation is the MDX content itself: `content/docs/` (docs site), `content/guides/`, `content/blog/`, `content/pages/` (legal), `content/authors/`; their navigation lives in `config/docs.ts` and `config/marketing.ts`. There are no `_ideas`, `_features`, `_designs`, `_adr`, `_plans`, `_tasks`, or `_releases` folders in this repo; the only engineering docs are `README.md` and this file.
+The product's user-facing documentation is the MDX content itself: `content/docs/` (docs site), `content/guides/`, `content/blog/`, `content/pages/` (legal), `content/authors/`; their navigation lives in `config/docs.ts` and `config/marketing.ts`. Engineering documents live under `docs/`, with `_ideas`, `_features`, `_designs`, `_adr`, `_plans`, `_epics`, `_stories`, `_tasks`, `_releases`, `_test-plans`, `_test-results`, `_status`, and `_skills` folders. See `docs/README.md` for the index. Keep the application’s MDX content separate from these engineering documents.
