@@ -66,7 +66,7 @@ If you have some suggestions, feel free to create an issue.
 pnpm install
 ```
 
-2. Copy `.env.example` to `.env.local` and update the variables.
+2. Copy `.env.example` to `.env.local` before running checks; it documents every variable validated at startup with placeholder values, which you must replace with your own configuration to use the app's services.
 
 ```sh
 cp .env.example .env.local
